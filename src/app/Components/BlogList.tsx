@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import Image from 'next/image'
-import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from '@/components/ui/card'
+import { Card, CardHeader, CardTitle, CardContent, CardFooter } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import { blogs } from '@/app/lib/data'
 
@@ -20,9 +20,7 @@ export default function BlogList() {
               />
             </div>
             <CardTitle className="line-clamp-2">{blog.title}</CardTitle>
-            {/* <CardDescription>
-              By {blog.des} 
-            </CardDescription> */}
+
           </CardHeader>
           <CardContent className="flex-grow">
             <p className="line-clamp-3">{blog.content}</p>
