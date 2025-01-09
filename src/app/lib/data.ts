@@ -19,7 +19,7 @@ export const blogs: Blog[] = [
     id: '1',
     title: 'Getting Started with Next.js',
     content: 'Next.js is a powerful React framework that enables developers to build scalable, performant, and production-ready web applications with minimal configuration. Developed by Vercel, Next.js has become a popular choice for developers looking to enhance their workflow with features like server-side rendering (SSR), static site generation (SSG), and API routes In this blog, well walk you through the basics of getting started with Next.js, from setting up a project to deploying it.key features of Next.js, and how to get started with your first Next.js project', 
-    image: '/nextjs.png',
+    image: '/images/nextjs.png',
     des:""
   },
   {
