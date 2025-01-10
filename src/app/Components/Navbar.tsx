@@ -6,7 +6,7 @@ import Image from 'next/image'
 import { useTheme } from 'next-themes'
 import { Button } from '@/components/ui/button'
 import { Moon, Sun, Menu, X } from 'lucide-react'
-const blog = "/assets/blog-word-cloud1.png"
+import blog from "../../../public/images/blog-word-cloud1.png"
 export default function Navbar() {
   const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
